@@ -1,0 +1,6 @@
+x = "Hello"
+def myfunc():
+  global x
+  x = "Good morning"
+myfunc()
+print("Hi" + x)
